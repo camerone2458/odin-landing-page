@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #3882F6;
+  padding: 5px 20px;
+  border-radius: 6px;
+  color: #E5E7EB;
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+    color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+a,
+.desc {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+}
+
+.header,
+.footer,
+.top {
+  background-color: #1F2937;
+}
+
+.header,
+.footer {
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.hlogo {
+  display: flex;
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.top {
+  display: flex;
+  padding: 50px 225px 80px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.topleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.awesome {
+  display: flex;
+}
+
+.button1 {
+  margin-top: 15px;
+  border: 1px solid #3882F6; 
+  align-self: flex-start;
+}
+
+.topimage {
+  height: 300px;
+  width: 550px;
+  background-color: rgba(187, 187, 187, 0.493);
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+}
+
+.info {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 250px 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.infohead {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.infoboxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.minibox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.minipix {
+  border: 3px solid #3882F6;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.imgsub {
+  width: 150px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.actionbox {
+  background-color: #3882F6;
+}
