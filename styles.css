@@ -155,8 +155,60 @@ a,
 
 .quote {
   background-color: #E5E7EB;
+  display: flex;
+  padding: 50px 250px 50px 375px;
+  flex-direction: column;
+}
+
+.quotetxt {
+  font-size: 28px;
+  font-style: italic;
+  font-family: "open_sanslight";
+  font-weight: 300;
+}
+
+.quotecred {
+  font-weight: 600;
+  font-size: 18px;
+  align-self: flex-end;
+  margin-right: 35px;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 200px;
 }
 
 .actionbox {
+  display: flex;
   background-color: #3882F6;
+  padding: 30px 75px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.actiontxt {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.actiontitle {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.actionsub {
+  color: #E5E7EB;
+  font-size: 16px;
+}
+
+.subutton {
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+  white-space: nowrap;
 }
